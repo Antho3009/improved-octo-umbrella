@@ -10,9 +10,9 @@ h1, h2, h3 {
 }
 
 .container {
-    	display: flex;
+    	display: flex;/*
     	justify-content: center;
-    	align-items: center;
+    	align-items: center;*/
     	min-height: 10vh;
 	margin-bottom: 20px;
 }
