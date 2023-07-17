@@ -40,4 +40,6 @@ footer {
 img {
 	max-width: 30%;
 	max-height: 30%;
+	display: block;
+	margin: 0 auto;
 }
