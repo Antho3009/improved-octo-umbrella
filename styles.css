@@ -2,7 +2,7 @@ body {
 	font-family: Arial, sans-serif;
     	margin: 0;
     	padding: 0;
-    	background-color: #f2f2f2;
+   	background-color: #f2f2f2;
 }
 
 h1, h2, h3 {
@@ -10,22 +10,22 @@ h1, h2, h3 {
 }
 
 .container {
-    	display: flex;/* 
-    	justify-content: center;
-    	align-items: center;*/
-    	min-height: 100vh;
-	margin-bottom: 20px;
+    	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 0vh;
+	margin-bottom: 20px; /* Espace en dessous du container -> le tableau fait parti du container */
 }
 
 table {
-    	border-collapse: collapse;
-    	width: 80%;
-    	margin: 20px auto 20px;
+	border-collapse: collapse;
+	width: 80%;
+	margin: 30px 0 0 0;
 }
 
 th, td {
 	border: 1px solid black;
-	padding: 8px;
+	padding: 1%;
 	text-align: left;
 	width: 25%;
 }
@@ -39,6 +39,6 @@ footer {
 }
 
 img {
-    	max-width: 70px;
-    	max-height: 70px;
+	max-width: 20%;
+	max-height: 20%;
 }
