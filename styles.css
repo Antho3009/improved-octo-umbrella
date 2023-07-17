@@ -13,7 +13,8 @@ h1, h2, h3 {
     	display: flex;
 	justify-content: center;
 	align-items: center;
-	min-height: 0vh;
+	min-height: 15px;
+	max-height: 45px;
 	margin-bottom: 20px; /* Espace en dessous du container -> le tableau fait parti du container */
 }
 
